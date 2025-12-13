@@ -101,6 +101,10 @@ nav a.active {
     top: 50%;
     transform: translateY(-50%);
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-main-title {
@@ -645,113 +649,137 @@ footer p {
 /* Mobile */
 @media (max-width: 600px) {
     #main-header {
-        padding: 15px;
+        padding: 10px 5px;
         height: auto;
+        min-height: 55px;
     }
 
     #main-header h1 {
-        font-size: 1.3em;
+        font-size: 0.9em;
         width: 100%;
         text-align: center;
+        margin-bottom: 6px;
     }
 
     nav {
         width: 100%;
-        margin-top: 15px;
-        flex-wrap: wrap;
-        gap: 10px;
+        margin-top: 0;
+        flex-wrap: nowrap;
+        gap: 3px;
+        justify-content: center;
+        overflow-x: auto;
     }
 
     nav a {
-        font-size: 0.85em;
-        padding: 5px 10px;
+        font-size: 0.65em;
+        padding: 5px 8px;
+        white-space: nowrap;
+        flex-shrink: 0;
     }
 
     #hero {
-        height: 70vh;
-        margin-top: -60px;
+        height: 100vh;
+        margin-top: 0;
+        background-position: center center;
+    }
+
+    #hero .hero-overlay {
+        top: 60%;
     }
 
     .hero-main-title {
         font-size: 1.8em;
         letter-spacing: 1px;
-        padding: 0 15px;
+        padding: 0 20px;
+        margin-bottom: 25px;
     }
 
     #hero h2 {
         font-size: 1.3em;
-        padding: 0 15px;
+        padding: 0 25px;
+        margin-bottom: 25px;
+        line-height: 1.4;
     }
 
     #hero p {
         font-size: 1em;
-        padding: 0 15px;
+        padding: 0 25px;
+        margin-bottom: 35px;
+        line-height: 1.5;
+    }
+
+    .hero-btn {
+        padding: 14px 32px;
+        font-size: 1em;
+        margin-top: 15px;
     }
 
     #sobre {
-        padding: 60px 15px;
+        padding: 60px 20px;
     }
 
     .sobre-container {
-        padding: 0 20px;
-        gap: 25px;
+        padding: 0;
+        gap: 35px;
     }
 
     .sobre-mim,
     .missao,
     .missão {
-        padding: 20px 25px;
+        padding: 30px 25px;
     }
 
     .sobre-mim h2,
     .missao h2,
     .missão h2 {
-        font-size: 1.8em;
+        font-size: 1.6em;
+        margin-bottom: 20px;
     }
 
     .sobre-mim p,
     .missao p,
     .missão p {
-        font-size: 1.05em;
+        font-size: 1em;
+        line-height: 1.7;
     }
 
     #servicos,
     #planos {
-        padding: 80px 15px;
+        padding: 80px 20px;
     }
 
     .servicos-titulo {
-        font-size: 1.8em;
-        margin-bottom: 40px;
+        font-size: 1.6em;
+        margin-bottom: 50px;
     }
 
     .servicos-container, .planos-container {
         grid-template-columns: 1fr;
-        gap: 20px;
-        padding: 0 10px;
+        gap: 25px;
+        padding: 0;
     }
 
     .servico-card,
     .plano-card {
-        padding: 25px 20px;
+        padding: 30px 25px;
     }
 
     .depoimento-card {
-        width: 280px;
-        padding: 20px;
+        width: 300px;
+        padding: 25px;
     }
 
     #contato h2 {
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
 
     #contato p {
         font-size: 1em;
-        padding: 0 15px;
+        padding: 0 20px;
     }
 
     .whatsapp-button {
-        padding: 12px 25px;
+        padding: 15px 30px;
         font-size: 1em;
     }
 }
