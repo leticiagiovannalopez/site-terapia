@@ -55,4 +55,4 @@ O acesso ao código é destinado **exclusivamente para fins de avaliação de po
 ## 👩‍💻 Desenvolvedora
 
 📫 leticiagiovannad@gmail.com
-💼 linkedin.com/in/seu-linkedin 🐙 @leticiagiovannalopez
+💼 [linkedin.com/in/seu-linkedin](https://www.linkedin.com/in/let%C3%ADcia-lopez-789aa9368/) 🐙 @leticiagiovannalopez
