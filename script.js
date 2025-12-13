@@ -1,4 +1,4 @@
-// --- Efeito de scroll no Header ---
+// Efeito de scroll no Header 
 window.addEventListener('scroll', function() {
     const header = document.getElementById('main-header');
     if (window.scrollY > 50) {
@@ -8,7 +8,7 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// --- Animação de elementos ao scrollar ---
+// Animação de elementos ao scrollar 
 const elementsToShow = document.querySelectorAll('.show-on-scroll');
 
 const checkAndAnimate = () => {
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', checkAndAnimate);
 // Executa a função ao rolar a página
 window.addEventListener('scroll', checkAndAnimate);
 
-// --- Scroll suave para links de navegação ---
+// Scroll suave para links de navegação 
 document.querySelectorAll('nav a').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -48,7 +48,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
-// --- Efeito de parallax suave no hero ---
+// Efeito de parallax suave no hero 
 window.addEventListener('scroll', function() {
     const hero = document.getElementById('hero');
     const scrolled = window.pageYOffset;
@@ -57,7 +57,7 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// --- Botão Voltar ao Topo ---
+// Botão Voltar ao Topo 
 const backToTopButton = document.getElementById('back-to-top');
 
 window.addEventListener('scroll', () => {
@@ -76,7 +76,7 @@ backToTopButton.addEventListener('click', (e) => {
     });
 });
 
-// --- Animação de entrada para os cards de serviços e planos ---
+// Animação de entrada para os cards de serviços e planos 
 const cards = document.querySelectorAll('.servico-card, .plano-card');
 
 const observerOptions = {
@@ -156,16 +156,6 @@ function typeWriter(element, text, speed = 100) {
     type();
 }
 
-// Ativar o efeito quando a página carregar (opcional, descomente se quiser usar)
-// document.addEventListener('DOMContentLoaded', () => {
-//     const heroTitle = document.querySelector('#hero h2');
-//     if (heroTitle) {
-//         const originalText = heroTitle.textContent;
-//         typeWriter(heroTitle, originalText, 50);
-//     }
-// });
-
-// --- Melhorar a performance do scroll ---
 let ticking = false;
 
 function updateOnScroll() {
@@ -180,7 +170,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// --- Adicionar classe ativa ao link da navegação baseado na seção visível ---
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('nav a');
 

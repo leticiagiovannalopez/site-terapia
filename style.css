@@ -1,4 +1,3 @@
-/* ========================== BASE ========================== */
 body,
 html {
     margin: 0;
@@ -12,7 +11,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* ========================== HEADER CORRIGIDO (Final) ========================== */
 #main-header {
     position: fixed;
     top: 0;
@@ -61,13 +59,11 @@ nav a.active {
     padding-bottom: 3px;
 }
 
-/* ========================== HERO ========================== */
 #hero {
     position: relative;
     text-align: center;
     height: 95vh;
     background-image: url('imagem/hero.jpg');
-    background-position: center top;
     background-repeat: no-repeat;
     color: #ffffff;
     margin-top: -80px;
@@ -162,7 +158,6 @@ nav a.active {
     box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
 }
 
-/* ========================== SOBRE ========================== */
 #sobre {
     padding: 80px 20px;
     background-color: #f7f5f0;
@@ -234,7 +229,6 @@ nav a.active {
     color: #333;
 }
 
-/* ========================== SVG DECORATIVO SOBRE ========================== */
 #sobre::before,
 #sobre::after {
     content: "";
@@ -259,7 +253,6 @@ nav a.active {
     }
 }
 
-/* ========================== SERVIÇOS ========================== */
 #servicos {
     padding: 120px 20px;
     background-color: #f2ede6;
@@ -318,7 +311,6 @@ nav a.active {
     box-shadow: 0px 12px 26px rgba(0, 0, 0, 0.13);
 }
 
-/* ========================== PLANOS ========================== */
 #planos {
     padding: 120px 20px;
     background-color: #f7f5f0;
@@ -403,7 +395,6 @@ nav a.active {
     line-height: 1.6;
 }
 
-/* ========================== DEPOIMENTOS ========================== */
 #depoimentos {
     padding: 120px 0;
     background-color: #f2ede6;
@@ -478,7 +469,6 @@ nav a.active {
     }
 }
 
-/* ========================== CONTATO ========================== */
 #contato {
     background-color: #0a1045;
     color: #f7f5f0;
@@ -524,7 +514,6 @@ nav a.active {
     margin-right: 12px;
 }
 
-/* ========================== FOOTER ========================== */
 footer {
     background-color: #0a1045;
     color: #f7f5f0;
@@ -538,7 +527,6 @@ footer p {
     line-height: 1.5;
 }
 
-/* ========================== ANIMAÇÕES DE SCROLL ========================== */
 .show-on-scroll {
     opacity: 0;
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
@@ -561,9 +549,7 @@ footer p {
     transform: translateX(0) translateY(0);
 }
 
-/* ========================== RESPONSIVO ========================== */
 
-/* Tablets grandes e menores */
 @media (max-width: 1200px) {
     #main-header {
         padding: 20px 30px;
@@ -580,7 +566,6 @@ footer p {
     }
 }
 
-/* Tablets */
 @media (max-width: 900px) {
     #main-header {
         padding: 15px 20px;
@@ -645,7 +630,6 @@ footer p {
     }
 }
 
-/* Mobile */
 @media (max-width: 600px) {
     #main-header {
         padding: 10px 5px;
@@ -824,7 +808,6 @@ footer p {
     }
 }
 
-/* ========================== BOTÃO VOLTAR AO TOPO ========================== */
 #back-to-top {
     position: fixed;
     bottom: 30px;
