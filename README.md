@@ -43,9 +43,3 @@ Durante o desenvolvimento deste projeto, foram aprofundadas habilidades em:
 * UX/UI focado em conversão e clareza de informação
 
 ---
-
-## Desenvolvedora
-
-leticiagiovannalopez@gmail.com
-linkedin.com/in/leticiagiovannalopez 
-[@leticiagiovannalopez](https://github.com/leticiagiovannalopez)
