@@ -1,4 +1,4 @@
-# 🌿 Terapia Cristã — Website Institucional
+# Terapia — Website Institucional
 
 Website institucional **responsivo e mobile-first**, desenvolvido para apresentação de serviços de **terapia cristã**, com foco em clareza, conversão e experiência do usuário.
 
@@ -31,7 +31,7 @@ O website apresenta informações sobre a terapeuta, serviços oferecidos, plano
 * **SVG**
   Elementos vetoriais decorativos leves e escaláveis.
 
-## 🎓 Aprendizados
+## Aprendizados
 
 Durante o desenvolvimento deste projeto, foram aprofundadas habilidades em:
 
@@ -44,15 +44,8 @@ Durante o desenvolvimento deste projeto, foram aprofundadas habilidades em:
 
 ---
 
-## 🔒 Acesso ao Projeto
+## Desenvolvedora
 
-Este repositório contém o código-fonte de um website desenvolvido para **fins comerciais e institucionais**.
-
-O acesso ao código é destinado **exclusivamente para fins de avaliação de portfólio**.
-
----
-
-## 👩‍💻 Desenvolvedora
-
-📫 leticiagiovannad@gmail.com
-💼 [linkedin.com/in/seu-linkedin](https://www.linkedin.com/in/let%C3%ADcia-lopez-789aa9368/) 🐙 [@leticiagiovannalopez](https://github.com/leticiagiovannalopez)
+leticiagiovannalopez@gmail.com
+linkedin.com/in/leticiagiovannalopez 
+[@leticiagiovannalopez](https://github.com/leticiagiovannalopez)
