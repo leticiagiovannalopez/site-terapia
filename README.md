@@ -14,7 +14,7 @@ O website apresenta informações sobre a terapeuta, serviços oferecidos, plano
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **HTML5**
   Estrutura semântica, acessível e bem organizada.
